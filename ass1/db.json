@@ -1,0 +1,178 @@
+{
+    "categories": 
+     [ 
+       {
+      "id": 1,
+      "name": "Quần"
+  },
+   {
+      "id": 2,
+      "name": "Áo "
+  },
+   {
+      "id": 3,
+      "name": "Baby tee"
+  },
+   {
+      "id": 4,
+      "name": "sweter"
+  },
+   {
+      "id": 5,
+      "name": "áo nỉ bông"
+  }
+  ],
+  
+  "products": [
+    {
+      "id": 1,
+      "name": "QUẦN DÀI NAM",
+      "cate_id": 1,
+      "price": 499.999,
+      "image": "https://canifa.com/img/1000/1500/resize/8/b/8bp23w018-sa719-l-1-thumb-u.webp"
+    },
+    {
+      "id": 2,
+      "name": "KHĂN LEN UNISEX NGƯỜI LỚN",
+      "cate_id": 1,
+      "price": 129000,
+      "image": "https://canifa.com/img/1000/1500/resize/5/a/5ac23w001-sa862-0000-1-u.webp"
+    },
+    {
+      "id": 3,
+      "name": "ÁO MŨ NỈ UNISEX NGƯỜI LỚN",
+      "cate_id": 1,
+      "price": 499000,
+      "image": "https://canifa.com/img/1000/1500/resize/5/t/5tw23w001-sn244-l-1-u.webp"
+    },
+    {
+      "id": 4,
+      "name": "ÁO PHÔNG NAM",
+      "cate_id": 2,
+      "price": 372000,
+      "image": "https://canifa.com/img/1000/1500/resize/8/t/8ts23w003-sa423-xl-1-u.webp"
+    },
+    {
+      "id": 5,
+      "name": "ÁO NỈ NAM CÓ HÌNH IN",
+      "cate_id": 2,
+      "price": 200000,
+      "image": "https://canifa.com/img/1000/1500/resize/8/t/8tw23w012-sb015-1-thumb.webp"
+    },
+    {
+      "id": 6,
+      "name": "ÁO KHOÁT NỈ UNISEX...",
+      "cate_id": 2,
+      "price": 299.000,
+      "image": "https://canifa.com/img/1000/1500/resize/5/o/5ot23w005-sk010-thumb-c.webp"
+    },
+    {
+      "id": 7,
+      "name": "ÁO BLAZER NAM CO GIẢN CỔ VE LẬT...",
+      "cate_id": 3,
+      "price": 500000,
+      "image": "https://canifa.com/img/1000/1500/resize/8/o/8ot23w025-sa718-2-thumb.webp"
+    },
+    {
+      "id": 8,
+      "name": "ÁO POLO NAM",
+      "cate_id": 3,
+      "price": 341000,
+      "detail": "OVERSIZED BOXY FIT",
+      "image": "https://canifa.com/img/1000/1500/resize/8/t/8tp23w009-pb406-2-thumb.webp"
+    },
+    {
+      "id": 9,
+      "name": "TẤT NAM CỔ CAO",
+      "cate_id": 3,
+      "price": 356000,
+      "image": "https://canifa.com/img/1000/1500/resize/8/a/8ak23c001-sb001-0000-1-u.webp"
+    },
+    {
+      "id": 10,
+      "name": "QUẦN SOOC NAM CÓ HÌNH IN",
+      "cate_id": 4,
+      "price": 300000,
+      "image": "https://canifa.com/img/1000/1500/resize/8/b/8bs23w008-sb422-1-thumb.webp"
+    }
+    
+  ],
+          "orders": {
+            "1": {
+              "id": 1,
+              "customer_name": "Trần Khải Đình ",
+              "customer_address": "123 Main St",
+              "customer_email": "dinh@example.com",
+              "customer_phone_number": "555-1234",
+              "created_date": "2024-01-17",
+              "status": "Processing"
+            },
+            "2": {
+              "id": 2,
+              "customer_name": "Lý Văn Kiệt",
+              "customer_address": "456 Oak St",
+              "customer_email": "kiet@example.com",
+              "customer_phone_number": "555-5678",
+              "created_date": "2024-01-18",
+              "status": "Shipped"
+            },
+            "3": {
+              "id": 3,
+              "customer_name": "Lê Quốc An",
+              "customer_address": "789 Elm St",
+              "customer_email": "an@example.com",
+              "customer_phone_number": "555-9012",
+              "created_date": "2024-01-19",
+              "status": "Delivered"
+            },
+            "4": {
+              "id": 4,
+              "customer_name": "Mai Hảo Hảo",
+              "customer_address": "101 Pine St",
+              "customer_email": "hao@example.com",
+              "customer_phone_number": "555-3456",
+              "created_date": "2024-01-20",
+              "status": "Processing"
+            },
+            "5": {
+              "id": 5,
+              "customer_name": "Nguyễn Thành Phát",
+              "customer_address": "202 Cedar St",
+              "customer_email": "phat@example.com",
+              "customer_phone_number": "555-7890",
+              "created_date": "2024-01-21",
+              "status": "Shipped"
+            }
+          },
+          "order_details": {
+              "1": {
+                "order_id": 1,
+                "product_id": 1,
+                "quantity": 2,
+                "unit_price": 499.999
+              },
+              "2": {"order_id": 2,
+              "product_id": 3,
+              "quantity": 1,
+              "unit_price": 799.999
+            },
+            "3": {
+              "order_id": 3,
+              "product_id": 5,
+              "quantity": 3,
+              "unit_price": 650.000
+            },
+            "4": {
+              "order_id": 4,
+              "product_id": 8,
+              "quantity": 2,
+              "unit_price": 389.000
+            },
+            "5": {
+              "order_id": 5,
+              "product_id": 10,
+              "quantity": 1,
+              "unit_price": 650.000
+            }
+          }
+      }
